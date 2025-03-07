@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fun Resume - Lara Bezerra</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" type="image/png" href="favicon.png"/>
+</head>
+
+<body>
+  <!-- Navigation Bar (repeated) -->
+  <nav class="navbar">
+    <div class="nav-logo">Lara Bezerra</div>
+    <ul class="nav-menu">
+      <!-- You can link back to sections on index.html here -->
+      <li><a href="index.html#home">Home</a></li>
+      <li><a href="index.html#about">About Me</a></li>
+      <li><a href="index.html#experience">Experience</a></li>
+      <li><a href="index.html#skills">Skills</a></li>
+      <li><a href="index.html#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Fun Resume Section -->
+  <section class="fun-resume-section">
+    <div class="section-title">
+      <h2>Fun Résumé</h2>
+    </div>
+
+    <p>
+      Here's a playful spin on my résumé. Enjoy reading it below or download it as a PDF!
+    </p>
+
+    <!-- Embed the PDF in the page (optional) -->
+    <!-- Make sure "funresume.pdf" is the correct file path relative to this HTML file -->
+    <object 
+      data="funresume.pdf"
+      type="application/pdf"
+      width="100%"
+      height="600"
+      style="border: 1px solid #ccc;">
+        <!-- Fallback text if the browser doesn't support PDF embedding -->
+        <p>
+          Your browser doesn't support PDF viewing.  
+          <a href="funresume.pdf" download>Click to download</a> instead.
+        </p>
+    </object>
+
+    <!-- Download Button -->
+    <div class="download-button">
+      <a href="funresume.pdf" download class="btn-cta">
+        Download Fun Résumé PDF
+      </a>
+    </div>
+
+  </section>
+
+  <!-- Footer (you can reuse your existing footer CSS) -->
+  <footer class="footer">
+    <p>
+      © 2025 <strong>Lara Bezerra</strong> | Built with ♥
+    </p>
+  </footer>
+</body>
+</html>

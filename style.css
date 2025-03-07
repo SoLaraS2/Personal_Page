@@ -1,0 +1,186 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 1.6;
+  }
+  
+  /* Navigation */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #09357b; /* Try a bold color for a charismatic edge */
+    color: #ffffff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .nav-logo {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-menu a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .nav-menu a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
+      ),
+      url('https://picsum.photos/1600/900?random') center/cover no-repeat;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn-cta {
+    background-color: #ffc107;
+    color: #333333;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+  
+  .btn-cta:hover {
+    background-color: #ffa700;
+  }
+  
+  /* Section Titles */
+  .section-title {
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+  
+  .section-title h2 {
+    font-size: 2rem;
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* About Section */
+  .about-section {
+    max-width: 800px;
+    margin: 0 auto 3rem auto;
+    padding: 0 1rem;
+    text-align: center;
+  }
+  
+  .about-content p {
+    margin-bottom: 1rem;
+    line-height: 1.7;
+  }
+  
+  /* Experience Section */
+  .experience-section {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+  }
+  
+  .timeline {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    gap: 1.5rem;
+  }
+  
+  .timeline-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+    color: #09357b;
+  }
+  
+  .timeline-date {
+    font-size: 0.9rem;
+    color: #555555;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Skills Section */
+  .skills-section {
+    padding: 2rem 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .skills-list {
+    display: grid;
+    gap: 2rem;
+    margin-top: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+  .skill-item h3 {
+    margin-bottom: 0.5rem;
+    color: #09357b;
+  }
+  
+  .skill-item ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .skill-item li {
+    margin-bottom: 0.3rem;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    padding: 2rem 1rem;
+    text-align: center;
+  }
+  
+  .contact-info {
+    margin-top: 1rem;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #09357b;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
